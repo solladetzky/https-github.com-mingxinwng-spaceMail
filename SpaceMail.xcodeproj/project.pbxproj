@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD4595BB24BE645A0056CE20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4595BA24BE645A0056CE20 /* AppDelegate.swift */; };
+		DD4595BD24BE645A0056CE20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4595BC24BE645A0056CE20 /* SceneDelegate.swift */; };
+		DD4595BF24BE645A0056CE20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4595BE24BE645A0056CE20 /* ViewController.swift */; };
+		DD4595C224BE645A0056CE20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD4595C024BE645A0056CE20 /* Main.storyboard */; };
+		DD4595C524BE645A0056CE20 /* SpaceMail.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD4595C324BE645A0056CE20 /* SpaceMail.xcdatamodeld */; };
+		DD4595C724BE645B0056CE20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD4595C624BE645B0056CE20 /* Assets.xcassets */; };
+		DD4595CA24BE645B0056CE20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD4595C824BE645B0056CE20 /* LaunchScreen.storyboard */; };
+		DD4595D524BE645B0056CE20 /* SpaceMailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4595D424BE645B0056CE20 /* SpaceMailTests.swift */; };
+		DD4595E024BE645C0056CE20 /* SpaceMailUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4595DF24BE645C0056CE20 /* SpaceMailUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD4595D124BE645B0056CE20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD4595AF24BE645A0056CE20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD4595B624BE645A0056CE20;
+			remoteInfo = SpaceMail;
+		};
+		DD4595DC24BE645B0056CE20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD4595AF24BE645A0056CE20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD4595B624BE645A0056CE20;
+			remoteInfo = SpaceMail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD4595B724BE645A0056CE20 /* SpaceMail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceMail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD4595BA24BE645A0056CE20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD4595BC24BE645A0056CE20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DD4595BE24BE645A0056CE20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD4595C124BE645A0056CE20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD4595C424BE645A0056CE20 /* SpaceMail.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SpaceMail.xcdatamodel; sourceTree = "<group>"; };
+		DD4595C624BE645B0056CE20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD4595C924BE645B0056CE20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD4595CB24BE645B0056CE20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD4595D024BE645B0056CE20 /* SpaceMailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceMailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD4595D424BE645B0056CE20 /* SpaceMailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceMailTests.swift; sourceTree = "<group>"; };
+		DD4595D624BE645B0056CE20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD4595DB24BE645B0056CE20 /* SpaceMailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceMailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD4595DF24BE645C0056CE20 /* SpaceMailUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceMailUITests.swift; sourceTree = "<group>"; };
+		DD4595E124BE645C0056CE20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD4595B424BE645A0056CE20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4595CD24BE645B0056CE20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4595D824BE645B0056CE20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD4595AE24BE645A0056CE20 = {
+			isa = PBXGroup;
+			children = (
+				DD4595B924BE645A0056CE20 /* SpaceMail */,
+				DD4595D324BE645B0056CE20 /* SpaceMailTests */,
+				DD4595DE24BE645C0056CE20 /* SpaceMailUITests */,
+				DD4595B824BE645A0056CE20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD4595B824BE645A0056CE20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD4595B724BE645A0056CE20 /* SpaceMail.app */,
+				DD4595D024BE645B0056CE20 /* SpaceMailTests.xctest */,
+				DD4595DB24BE645B0056CE20 /* SpaceMailUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD4595B924BE645A0056CE20 /* SpaceMail */ = {
+			isa = PBXGroup;
+			children = (
+				DD4595BA24BE645A0056CE20 /* AppDelegate.swift */,
+				DD4595BC24BE645A0056CE20 /* SceneDelegate.swift */,
+				DD4595BE24BE645A0056CE20 /* ViewController.swift */,
+				DD4595C024BE645A0056CE20 /* Main.storyboard */,
+				DD4595C624BE645B0056CE20 /* Assets.xcassets */,
+				DD4595C824BE645B0056CE20 /* LaunchScreen.storyboard */,
+				DD4595CB24BE645B0056CE20 /* Info.plist */,
+				DD4595C324BE645A0056CE20 /* SpaceMail.xcdatamodeld */,
+			);
+			path = SpaceMail;
+			sourceTree = "<group>";
+		};
+		DD4595D324BE645B0056CE20 /* SpaceMailTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD4595D424BE645B0056CE20 /* SpaceMailTests.swift */,
+				DD4595D624BE645B0056CE20 /* Info.plist */,
+			);
+			path = SpaceMailTests;
+			sourceTree = "<group>";
+		};
+		DD4595DE24BE645C0056CE20 /* SpaceMailUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD4595DF24BE645C0056CE20 /* SpaceMailUITests.swift */,
+				DD4595E124BE645C0056CE20 /* Info.plist */,
+			);
+			path = SpaceMailUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD4595B624BE645A0056CE20 /* SpaceMail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD4595E424BE645C0056CE20 /* Build configuration list for PBXNativeTarget "SpaceMail" */;
+			buildPhases = (
+				DD4595B324BE645A0056CE20 /* Sources */,
+				DD4595B424BE645A0056CE20 /* Frameworks */,
+				DD4595B524BE645A0056CE20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpaceMail;
+			productName = SpaceMail;
+			productReference = DD4595B724BE645A0056CE20 /* SpaceMail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD4595CF24BE645B0056CE20 /* SpaceMailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD4595E724BE645C0056CE20 /* Build configuration list for PBXNativeTarget "SpaceMailTests" */;
+			buildPhases = (
+				DD4595CC24BE645B0056CE20 /* Sources */,
+				DD4595CD24BE645B0056CE20 /* Frameworks */,
+				DD4595CE24BE645B0056CE20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD4595D224BE645B0056CE20 /* PBXTargetDependency */,
+			);
+			name = SpaceMailTests;
+			productName = SpaceMailTests;
+			productReference = DD4595D024BE645B0056CE20 /* SpaceMailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD4595DA24BE645B0056CE20 /* SpaceMailUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD4595EA24BE645C0056CE20 /* Build configuration list for PBXNativeTarget "SpaceMailUITests" */;
+			buildPhases = (
+				DD4595D724BE645B0056CE20 /* Sources */,
+				DD4595D824BE645B0056CE20 /* Frameworks */,
+				DD4595D924BE645B0056CE20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD4595DD24BE645B0056CE20 /* PBXTargetDependency */,
+			);
+			name = SpaceMailUITests;
+			productName = SpaceMailUITests;
+			productReference = DD4595DB24BE645B0056CE20 /* SpaceMailUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD4595AF24BE645A0056CE20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Sol Ladetzky";
+				TargetAttributes = {
+					DD4595B624BE645A0056CE20 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					DD4595CF24BE645B0056CE20 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = DD4595B624BE645A0056CE20;
+					};
+					DD4595DA24BE645B0056CE20 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = DD4595B624BE645A0056CE20;
+					};
+				};
+			};
+			buildConfigurationList = DD4595B224BE645A0056CE20 /* Build configuration list for PBXProject "SpaceMail" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD4595AE24BE645A0056CE20;
+			productRefGroup = DD4595B824BE645A0056CE20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD4595B624BE645A0056CE20 /* SpaceMail */,
+				DD4595CF24BE645B0056CE20 /* SpaceMailTests */,
+				DD4595DA24BE645B0056CE20 /* SpaceMailUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD4595B524BE645A0056CE20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4595CA24BE645B0056CE20 /* LaunchScreen.storyboard in Resources */,
+				DD4595C724BE645B0056CE20 /* Assets.xcassets in Resources */,
+				DD4595C224BE645A0056CE20 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4595CE24BE645B0056CE20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4595D924BE645B0056CE20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD4595B324BE645A0056CE20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4595BF24BE645A0056CE20 /* ViewController.swift in Sources */,
+				DD4595C524BE645A0056CE20 /* SpaceMail.xcdatamodeld in Sources */,
+				DD4595BB24BE645A0056CE20 /* AppDelegate.swift in Sources */,
+				DD4595BD24BE645A0056CE20 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4595CC24BE645B0056CE20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4595D524BE645B0056CE20 /* SpaceMailTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4595D724BE645B0056CE20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4595E024BE645C0056CE20 /* SpaceMailUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD4595D224BE645B0056CE20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD4595B624BE645A0056CE20 /* SpaceMail */;
+			targetProxy = DD4595D124BE645B0056CE20 /* PBXContainerItemProxy */;
+		};
+		DD4595DD24BE645B0056CE20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD4595B624BE645A0056CE20 /* SpaceMail */;
+			targetProxy = DD4595DC24BE645B0056CE20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD4595C024BE645A0056CE20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD4595C124BE645A0056CE20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD4595C824BE645B0056CE20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD4595C924BE645B0056CE20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD4595E224BE645C0056CE20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD4595E324BE645C0056CE20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD4595E524BE645C0056CE20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FK2JU5U328;
+				INFOPLIST_FILE = SpaceMail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Final-Project.SpaceMail";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD4595E624BE645C0056CE20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FK2JU5U328;
+				INFOPLIST_FILE = SpaceMail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Final-Project.SpaceMail";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD4595E824BE645C0056CE20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FK2JU5U328;
+				INFOPLIST_FILE = SpaceMailTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Final-Project.SpaceMailTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceMail.app/SpaceMail";
+			};
+			name = Debug;
+		};
+		DD4595E924BE645C0056CE20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FK2JU5U328;
+				INFOPLIST_FILE = SpaceMailTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Final-Project.SpaceMailTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceMail.app/SpaceMail";
+			};
+			name = Release;
+		};
+		DD4595EB24BE645C0056CE20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FK2JU5U328;
+				INFOPLIST_FILE = SpaceMailUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Final-Project.SpaceMailUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpaceMail;
+			};
+			name = Debug;
+		};
+		DD4595EC24BE645C0056CE20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FK2JU5U328;
+				INFOPLIST_FILE = SpaceMailUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Final-Project.SpaceMailUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpaceMail;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD4595B224BE645A0056CE20 /* Build configuration list for PBXProject "SpaceMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD4595E224BE645C0056CE20 /* Debug */,
+				DD4595E324BE645C0056CE20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD4595E424BE645C0056CE20 /* Build configuration list for PBXNativeTarget "SpaceMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD4595E524BE645C0056CE20 /* Debug */,
+				DD4595E624BE645C0056CE20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD4595E724BE645C0056CE20 /* Build configuration list for PBXNativeTarget "SpaceMailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD4595E824BE645C0056CE20 /* Debug */,
+				DD4595E924BE645C0056CE20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD4595EA24BE645C0056CE20 /* Build configuration list for PBXNativeTarget "SpaceMailUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD4595EB24BE645C0056CE20 /* Debug */,
+				DD4595EC24BE645C0056CE20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DD4595C324BE645A0056CE20 /* SpaceMail.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DD4595C424BE645A0056CE20 /* SpaceMail.xcdatamodel */,
+			);
+			currentVersion = DD4595C424BE645A0056CE20 /* SpaceMail.xcdatamodel */;
+			path = SpaceMail.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DD4595AF24BE645A0056CE20 /* Project object */;
+}
